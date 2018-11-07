@@ -1,13 +1,13 @@
 {
-  "client_id" : "074d69f8-eed5-46ed-b577-13a834d0a716",
+  "client_id" : "7dff948f-203c-452c-9f46-f8254cb61009",
   "authorization_user_agent" : "DEFAULT",
-  "redirect_uri" : "msal074d69f8-eed5-46ed-b577-13a834d0a716://auth",
+  "redirect_uri" : "com.onmicrosoft.loyaltyprogramapp.loyaltyapp://oauth/redirect",
+  //                                app               domain              our current scheme
+  //                                appname           azurewebsites.net   working scheme
   "authorities" : [
     {
-      "type": "AAD",
-      "audience": {
-        "type": "AzureADandPersonalMicrosoftAccount"
-      }
+      "type": "B2C",
+      "authority_url": "https://login.microsoftonline.com/tfp/loyaltyprogramapp.onmicrosoft.com/B2C_1_google-web-dev-policy"
     }
   ]
 }

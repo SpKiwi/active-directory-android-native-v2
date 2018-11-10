@@ -30,7 +30,7 @@
 
                 <!--Add in your scheme/host from registered redirect URI-->
                 <data android:scheme="com.onmicrosoft.loyaltyprogramapp.loyaltyapp"
-                    android:host="auth" />
+                    android:host="oauth" />
             </intent-filter>
         </activity>
 
